@@ -6,6 +6,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+
 html, body {
   margin: 0;
   height: 100%;

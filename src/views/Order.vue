@@ -103,7 +103,7 @@ export default {
           // Write barcode
           context.fillStyle = 'black'
           context.font = `${FONT_SIZE + 30}px Barcode`
-          context.fillText(orders[sku].sku, LINE_HEIGHT + OFFSET, index * LINE_HEIGHT + OFFSET * 1.5 + FONT_SIZE * 3)
+          context.fillText(`*${orders[sku].sku}`, LINE_HEIGHT + OFFSET, index * LINE_HEIGHT + OFFSET * 1.5 + FONT_SIZE * 3)
 
           index += 1
         }
